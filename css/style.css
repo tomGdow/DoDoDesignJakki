@@ -77,8 +77,7 @@ pre {
     float: left;
     -moz-border-radius: 60px;
     -webkit-border-radius: 60px;
-    border-radius: 60px;
-    box-shadow: 10px 10px 5px #ccc;}
+    border-radius: 60px;}
 
 .button{margin-left: 50px;
 margin-top: 20px;}

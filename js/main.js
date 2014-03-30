@@ -1,4 +1,4 @@
-
+var sndOn = false;
 $(window).load(function() {
 
     $(".top-demo div").each(function() {
@@ -26,7 +26,7 @@ $(window).load(function() {
 
         });
 
-        jakkimodule.playSound('./sounds/harpRoll.wav', 0.5);
+        jakkimodule.playSound('./sounds/harpRoll.wav', 0.5,sndOn);
     });
 
 
@@ -35,12 +35,31 @@ $(window).load(function() {
 var jakkimodule= (function () {
 
     return {
-        playSound:  function(str, vol) {
+        playSound:  function(str, vol,sndOn) {
+
+            if(sndOn) {
             var snd = new Audio();
             snd.src = str;
             snd.volume = vol;
             snd.play();
+
+            }
         }
     }
 })()
+
+
+document.getElementById('mySoundButton').onclick = function () {
+
+    if(sndOn) {
+       sndOn = false;
+        document.getElementById('mySoundButton').innerHTML = "Turn Sound On"
+    }
+
+    else  if(sndOn ==false) {
+        sndOn = true;
+        document.getElementById('mySoundButton').innerHTML = "Turn Sound Off"
+    }
+
+};
 
