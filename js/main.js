@@ -28,8 +28,6 @@ $(window).load(function() {
 
         jakkimodule.playSound('./sounds/harpRoll.wav', 0.5,sndOn);
     });
-
-
 });
 
 var jakkimodule= (function () {
@@ -44,22 +42,26 @@ var jakkimodule= (function () {
             snd.play();
 
             }
+        },
+
+        switchSound:function  () {
+
+        if(sndOn) {
+            sndOn = false;
+            document.getElementById('mySoundButton').innerHTML = "Turn Sound On"
         }
+
+        else  if(sndOn ==false) {
+            sndOn = true;
+            document.getElementById('mySoundButton').innerHTML = "Turn Sound Off"
+        }
+       }
     }
 })()
 
-
 document.getElementById('mySoundButton').onclick = function () {
 
-    if(sndOn) {
-       sndOn = false;
-        document.getElementById('mySoundButton').innerHTML = "Turn Sound On"
-    }
+    jakkimodule.switchSound()
 
-    else  if(sndOn ==false) {
-        sndOn = true;
-        document.getElementById('mySoundButton').innerHTML = "Turn Sound Off"
-    }
-
-};
+}
 

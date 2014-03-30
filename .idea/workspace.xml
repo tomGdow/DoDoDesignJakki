@@ -4,8 +4,6 @@
     <list default="true" id="31ab8b9e-73d3-4b80-9227-becc775c0059" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DoDoDesignJakki.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +70,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="646" selection-end="646" vertical-scroll-proportion="0.6970387" vertical-offset="0" max-vertical-offset="846">
+            <state line="13" column="7" selection-start="561" selection-end="561" vertical-scroll-proportion="-0.27107063" vertical-offset="353" max-vertical-offset="792">
               <folding />
             </state>
           </provider>
@@ -81,7 +79,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="57" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1278">
+            <state line="4" column="27" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="838" max-vertical-offset="1314">
               <folding />
             </state>
           </provider>
@@ -90,7 +88,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="26" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0" vertical-offset="1180" max-vertical-offset="1656">
+            <state line="83" column="0" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0" vertical-offset="1134" max-vertical-offset="1656">
               <folding />
             </state>
           </provider>
@@ -110,9 +108,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -444,12 +442,12 @@
       <created>1396186073408</created>
       <updated>1396186073408</updated>
       <workItem from="1396186078181" duration="1580000" />
-      <workItem from="1396216834430" duration="2248000" />
+      <workItem from="1396216834430" duration="3090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3828000" />
+    <option name="totallyTimeSpent" value="4670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="74" y="97" width="1173" height="592" extended-state="0" />
@@ -609,23 +607,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="57" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1278">
+        <state line="83" column="0" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0" vertical-offset="1180" max-vertical-offset="1656">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="26" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0" vertical-offset="1180" max-vertical-offset="1656">
+        <state line="4" column="27" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="838" max-vertical-offset="1314">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="646" selection-end="646" vertical-scroll-proportion="0.6970387" vertical-offset="0" max-vertical-offset="846">
+        <state line="13" column="7" selection-start="561" selection-end="561" vertical-scroll-proportion="-0.27107063" vertical-offset="353" max-vertical-offset="792">
           <folding />
         </state>
       </provider>
